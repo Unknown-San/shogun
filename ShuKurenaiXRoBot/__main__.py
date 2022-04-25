@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Beyblade theme management bot [🔥](http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg) 
+✪ I'm an Genshin theme management bot [🔥](https://telegra.ph/file/6563f0e21170286015b55.mp4) 
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/RaidenSuperBot?startgroup=new"),
+            text="➗ Add Raiden To Your Group ➗", url="t.me/RaidenSuperBot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
@@ -109,7 +109,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url=f"https://t.me/shukurenai007"),
+                             url=f"https://t.me/IDK"),
     ],
 
 ]
